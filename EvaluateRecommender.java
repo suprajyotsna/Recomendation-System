@@ -1,4 +1,4 @@
-package com.recommendationsystem.rest;
+package com.patternrecognition.rest;
 
 import java.io.File;
 
