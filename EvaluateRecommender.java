@@ -1,4 +1,4 @@
-package com.mkyong.rest;
+package com.recommendationsystem.rest;
 
 import java.io.File;
 
