@@ -1,7 +1,7 @@
 # Recomendation-System
-We have designed a collaborative user-based recommendation system by taking GroupLens data set of size - 100K. We have used Apache Mahout to build recommendation system which provides rich set of components. <br /> 
-Project conists of 3 Java files: HelloWorldService.java, EvaluateRecommender.java, OutputFormat.java. <br /> 
-Jersey (RestAPI) and Jackson are used to connect User Interface (web browser) to local host. <br />
+We have designed a collaborative user-based recommendation system by taking GroupLens data set of size - 100K. We have used Apache Mahout to build recommendation system which provides rich set of components.
+Project (maven based) conists of 3 Java files: HelloWorldService.java, EvaluateRecommender.java, OutputFormat.java. <br />  
+Jersey (RestAPI) and Jackson are used to connect User Interface (web browser) to local host. To run the project we should have Jersey and Jackson jar files, in addition, slf4j-nop-1.7.25 jar file.
 ## HelloWorldService.java: <br />
 Program execution starts with HelloWorldService.java. 
 User enters his/her id and required number of recommendations through user interface (web browser) to developed system and the user details are send to HelloWorldService.java through ajax, then based on the userid and similarity, neighborhood is created and recommedations from that neighborhood are displayed in the browser. <br />
